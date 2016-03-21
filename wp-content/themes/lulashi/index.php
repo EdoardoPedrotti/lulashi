@@ -10,7 +10,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 	<div class='col-md-10 col-md-offset-2'>
 		<div class="row">
 			<div class="col-md-3 col-xs-offset-1">
-				<h1><?php the_title()?></h1>
+				<h1><a href="<?php the_permalink();?>"><?php the_title()?></a></h1>
 			</div>
 		</div>
 		<div class="row" style="margin:0.1%;">

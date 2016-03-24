@@ -30,10 +30,10 @@
           </div>
           <div class="navbar-collapse collapse ">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Works</a></li>
-              <li><a href="#">Bio</a></li>
+              <li class="active"><a href=" http://localhost:8888/lulashi/work">Works</a></li>
+              <li><a href=" http://localhost:8888/lulashi/bio/">Bio</a></li>
               
-              <li><a href="#">Contacts</a></li>
+              <li><a href="http://localhost:8888/lulashi/contact/">Contacts</a></li>
               
             </ul>
             </div><!--/.nav-collapse -->

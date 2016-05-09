@@ -17,7 +17,7 @@
       
       <div class="navbar navbar-default navbar-fixed-top" id="sidemenu" role="navigation">
         <div class="container-fluid" >
-          <h1 class="lulashi-font text-center">Iva Lulashi</h1>
+          <h1 class="lulashi-font text-center"><a href="<?php echo get_site_url();?>">Iva Lulashi</a></h1>
           <div class="navbar-header">
             
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
@@ -31,9 +31,9 @@
           <div class="navbar-collapse collapse ">
             <ul class="nav navbar-nav">
               <li class="active"><a href=" http://localhost:8888/lulashi/work">Works</a></li>
-              <li><a href=" http://localhost:8888/lulashi/bio/">Bio</a></li>
+              <li><a href=" <?php echo get_site_url();?>/bio/">Bio</a></li>
               
-              <li><a href="http://localhost:8888/lulashi/contact/">Contacts</a></li>
+              <li><a href="<?php echo get_site_url();?>/contact/">Contacts</a></li>
               
             </ul>
             </div><!--/.nav-collapse -->
